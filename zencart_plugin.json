@@ -1,0 +1,8 @@
+{
+    "plugin_id": "0",
+    "github_repo": "",
+    "name": "ZenCart Products Location",
+    "author": "brittainmark",
+    "description": "Module to add product locations to products. The packing slip and invoice also have been changed to display the product location. All the product types have been modified to display the product location. The product location is also displayed on the category product listing.",
+    "support_thread": ""
+}
