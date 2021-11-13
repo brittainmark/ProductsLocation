@@ -1,0 +1,15 @@
+orders css
+.btn {
+	margin-bottom: 3px;
+}
+
+Extra Defines
+FILENAME_ORDERS_CUSTOMSINVOICE file name of customs INVOICE
+IMAGE_ORDERS_CUSTOMSINVOICE "Customs INVOICE"
+
+$zco_notifier->notify('NOTIFY_ADMIN_ORDERS_MENU_BUTTONS', $oInfo, $contents);
+'oID=' . $oInfo->orders_id
+$contents .= ' <a href="' . zen_href_link(FILENAME_ORDERS_CUSTOMSINVOICE, 'oID=' . $oInfo->orders_id) .'" target="_blank" class="btn btn-primary" role="button">'. IMAGE_ORDERS_CUSTOMSINVOICE . '</a>';
+
+$zco_notifier->notify('NOTIFY_ADMIN_ORDERS_EDIT_BUTTONS', $oID, $order, $extra_buttons);
+$extra_buttons .= ' <a href="' . zen_href_link(FILENAME_ORDERS_CUSTOMSINVOICE, 'oID=' . $oID) . '" target="_blank" class="btn btn-primary" role="button">' . IMAGE_ORDERS_CUSTOMSINVOICE . '</a>';
