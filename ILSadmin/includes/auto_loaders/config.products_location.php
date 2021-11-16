@@ -11,16 +11,11 @@
 if (!defined('IS_ADMIN_FLAG')) {
   die('Illegal Access');
 }
-
 $autoLoadConfig[190][] = array('autoType'=>'class',
-    'classPath' => 'include/classes/observers/',
-    'loadFile'=>'product_location.php');
-
+    'loadFile'=>'observers/product_location.php');
 $autoLoadConfig[190][] = array('autoType'=>'classInstantiate',
     'className'=>'ProductsLocation',
     'objectName'=>'ProductsLocation');
-
-
 $autoLoadConfig[999][] = array(
   'autoType' => 'init_script',
   'loadFile' => 'init_products_location.php'
