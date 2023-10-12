@@ -9,6 +9,5 @@
  * @version $Id:  1.0 2019-02-20 Mark Brittain $
  */
 
-define('TEXT_VS_PRODUCTS_LOCATION', 'Products Location:');
-define('TABLE_HEADING_VS_LOCATION', 'Location');
+define('TEXT_HEADING_VS_LOCATION', 'Location');
 define('BOX_CONFIGURATION_VS_PRODUCTS_LOCATION', 'Very Simple Products Location Settings');

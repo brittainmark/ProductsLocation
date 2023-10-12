@@ -1,9 +1,9 @@
 <?php
 /**
- * @copyright Copyright 2003-2020 Zen Cart Development Team
+ * @copyright Copyright 2003-2022 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license https://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: DrByte 2020 Oct 28 Modified in v1.5.7a $
+ * @version $Id: Scott C Wilson 2021 Jun 30 Modified in v1.5.7d $
  */
 require('includes/application_top.php');
 
@@ -315,7 +315,7 @@ if ($order->billing['street_address'] != $order->delivery['street_address']) {
         ?>
       </table>
       <?php if (ORDER_COMMENTS_INVOICE > 0) { ?>
-        <table class="table table-condensed" style="width:25%;">
+        <table class="table table-condensed" style="width:100%;">
           <thead>
             <tr>
               <th class="text-center"><strong><?php echo TABLE_HEADING_DATE_ADDED; ?></strong></th>
